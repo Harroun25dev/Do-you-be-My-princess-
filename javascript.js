@@ -20,7 +20,7 @@ const moveNoButton = () => {
 
 // إضافة حدث mouseover لأجهزة الكمبيوتر
 noBtn.addEventListener("mouseover", moveNoButton);
-
+noBtn.addEventListener("click", moveNoButton);
 // إضافة حدث click لأجهزة الكمبيوتر والهاتف
 noBtn.addEventListener("click", (e) => {
   e.preventDefault(); // منع السلوك الافتراضي (مثل فتح رابط إذا كان الزر داخل <a>)
